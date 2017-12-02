@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  border: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+p, button, input {
+  font-family: 'Open Sans';
+}
+
+input {
+  border: 1px solid rgb(29, 42, 91);
+  margin: 5px 0;
+  height: 20px;
+  font-size: 0.75rem;
+}
+.wrapper {
+  box-sizing: border-box;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 60%;
+  height: 82px;
+  border-bottom: 1px solid rgb(29, 42, 91);
+}
+
+header {
+  font-size: 0.75rem;
+  width: 100%;
+  background-color: #3b5998;
+}
+
+header .logo {
+  font-size: 2.6rem;
+  color: white;
+  font-family: 'Muli';
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+}
+
+header .login {
+  color: #FFF;
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+
+.login .email, .login .password, .login button {
+  display: inline-block;
+  /*margin-left: 20px;*/
+  right: 0;
+  vertical-align: top;
+  float: right;
+}
+
+.login .email {
+  width: 130px;
+  margin-right: 20px;
+}
+
+.login .password {
+  width: 130px;
+  margin-right: 20px;
+}
+
+.login .password a {
+  color: rgb(156, 180, 216);
+  text-decoration: none;
+}
+
+.login .password a:hover {
+  text-decoration: underline;
+}
+
+.login button {
+  letter-spacing: 0.025rem;
+  font-size: 0.70rem;
+  font-weight: bold;
+  margin-top: 22px;
+  color: #FFF;
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  width: 10%;
+  height: 22px;
+}
