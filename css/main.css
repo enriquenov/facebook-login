@@ -16,10 +16,10 @@ body {
 }
 
 .col-left {
-  width: 60%;
+  width: 565px;
 }
 .col-right {
-  width: 40%;
+  width: 399px;
 }
 
 .col-left h3 {
@@ -28,7 +28,7 @@ body {
 }
 
 .feature {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .feature img {
@@ -98,6 +98,7 @@ body {
   display: inline-block;
   font-size: 0.6rem;
   vertical-align: middle;
+  margin-left: 5px;
 }
 
 .sex-radio {
@@ -145,5 +146,5 @@ hr {
   color: #666;
   font-weight: bold;
   font-size: 0.85rem;
-  margin: 10px 0 60px;
+  margin: 10px 0 50px;
 }
