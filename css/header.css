@@ -9,8 +9,17 @@ html {
   font-size: 16px;
 }
 
-p, button, input, h3 {
+p, button, input, h2, h3, h5 {
   font-family: 'Open Sans';
+}
+
+a {
+  color: #365899;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 input {
@@ -25,6 +34,7 @@ input {
   margin: 0 auto;
   width: 60%;
   height: auto;
+  overflow: auto;
 }
 
 header {
@@ -72,11 +82,6 @@ header .login {
 
 .login .password a {
   color: rgb(156, 180, 216);
-  text-decoration: none;
-}
-
-.login .password a:hover {
-  text-decoration: underline;
 }
 
 .login button {
