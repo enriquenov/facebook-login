@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enrique Novoa - C2C Web Take-Home Assessment</title>
 
-    <!-- CONTENT FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
     <!-- FACEBOOK LOGO FONT -->
     <link href="https://fonts.googleapis.com/css?family=Muli:700" rel="stylesheet">
+    <!-- CONTENT FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
@@ -21,18 +20,18 @@
     <header>
 
       <div class="wrapper">
-        <span class="logo">facebook</span>
+        <span id="swap" class="logo">facebook</span>
 
         <div class="login">
           <button type="button" name="button">Log In</button>
           <div class="password">
             <p>Password</p>
-            <input type="password" name="" value="">
+            <input type="password" name="password">
             <a href="#"><p>Forgot account?</p></a>
           </div>
           <div class="email">
             <p>Email or Phone</p>
-            <input type="email" name="" value="">
+            <input type="email" name="email" autofocus>
           </div>
         </div>
       </div>
@@ -226,17 +225,11 @@
       </div>
     </footer>
 
-
-
-
-
-
-
-
-
+    <!-- JQUERY LINK HERE -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     <!-- JAVASCRIPT!!!  -->
-    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
 
   </body>
 </html>

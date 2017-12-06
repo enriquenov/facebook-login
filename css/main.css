@@ -1,12 +1,10 @@
-body {
-  background-color: #edf0f5;
-}
-
 .main {
   width: 100%;
+  min-width: 980px;
   height: auto;
   color: #333;
   overflow: auto;
+  background-color: #edf0f5;
 }
 
 .col-left, .col-right {
@@ -19,7 +17,7 @@ body {
   width: 565px;
 }
 .col-right {
-  width: 399px;
+  width: 414px;
 }
 
 .col-left h3 {
